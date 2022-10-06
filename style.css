@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: #EB593B;
+    padding: 20px;
+
+}
+
+#nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 14px 16px;
+
+}
+
+#nav-link{
+    padding: 14px 16px;
+    font-size: 1.5rem;
+}
+
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+a:hover{
+    
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: all 1s ease-out;
+}
+
+li:first-child {
+    position: absolute;
+    left: 0px;
+    margin-left: 12px;
+}
+
+
+
+.background{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+#bg-text{
+       
+    color: #EB593B;
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    
+}
+
+
+.missions{
+    background-color: #EB593B;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+#as-nm{
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+
+    
+}
+
+#as-text{
+
+    color: white;
+    flex-direction: column;
+    margin-top: 22px;
+    position: relative;
+    top: 100px;
+
+
+}
+
+#as-img{
+    margin-top: 22px;
+    padding: 14px 16px;
+    width: 320px;
+    height: 320px;
+    
+
+}
+
+
+.produits{
+    background-color:white;
+    padding: 20px;
+
+
+}
+
+
+
+#p-text{
+    color: #303030;
+    font-size: 1.5rem;
+
+
+}
+
+
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 22px;
+    text-align: center;  
+    
+}
+
+#produits{
+    box-shadow:5px 7px 15px lightgrey;
+    border-radius: 10%;
+
+}
+
+
+#imgArr{
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+
+#p-text{
+
+    margin-bottom: 15px;
+}
+
+
+
+#btn{
+    margin-bottom: 15px;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 10%;
+    width: 80px;
+    font-weight:500;
+    padding: 14px 16px;
+    margin-left: 60px;
+
+}
+
+#btn:hover{
+    background-color: #fff;
+    color: #EB593B;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+
+}
+
+
+.footer{
+
+    background-color: #EB593B;
+    padding: 20px;
+    color: white;
+    
+   
+    
+}
+
+#divu {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;  
+    font-size: 1.3rem;
+   
+
+}
+
+#divu:nth-child(even){
+    position: relative;
+    left: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
